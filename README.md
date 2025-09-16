@@ -1,3 +1,5 @@
+https://github.com/Felipepbastos/trabalho_UVA
+
 Aplicativo de Agendamento de Consultas - Esqueleto
 
 Este repositório contém um esqueleto mínimo e funcional para um aplicativo de agendamento de consultas em clínica:
@@ -14,13 +16,9 @@ Estrutura
 
 docker-compose.yml – Sobe backend, frontend (estático) e banco Postgres
 
-README contém guia rápido de uso
+README
 
 Guia rápido (local, desenvolvimento)
-
-Copie os arquivos .env.example para .env no backend e frontend, configure as variáveis (DATABASE_URL, JWT_SECRET, OPENWEATHER_KEY).
-
-Inicie o Postgres (docker-compose fornecido) ou defina o DATABASE_URL para o seu banco.
 
 Backend:
 
@@ -47,8 +45,6 @@ Isso irá construir e rodar o Postgres + backend. O frontend é construído como
 
 Notas
 
-O esqueleto inclui stubs de integração com OpenWeather + ViaCEP. Substitua OPENWEATHER_KEY por uma chave válida.
-
+O esqueleto inclui stubs de integração com OpenWeather + ViaCEP. 
 Persistência de refresh token e hardening completo de produção foram simplificados para o esqueleto.
-
 Veja os comentários dentro dos arquivos para pontos de expansão (e-mail, SMS, tratamento robusto de erros).
